@@ -9,7 +9,9 @@ import Footer from "../Fotter/fotter.jsx";
 export default function Layout() {
   const { pathname } = useLocation();
   const isBrokerRoute =
-    pathname.startsWith("/broker") || pathname.startsWith("/confirm-payment");
+    pathname.startsWith("/broker") ||
+    pathname.startsWith("/confirm-payment") ||
+    pathname.startsWith("/completed-appointments");
   const isSignupRoute = pathname.includes("signup");
   
   return (

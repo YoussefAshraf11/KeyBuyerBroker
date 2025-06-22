@@ -87,7 +87,7 @@ export default function ProjectShowcase() {
             <div>
               Number of Properties: <span className="font-normal">{projectDetails.properties?.length || 0}</span>
             </div>
-            <div>
+            {/* <div>
               Created At: <span className="font-normal">{new Date(projectDetails.createdAt).toLocaleDateString()}</span>
             </div>
             <div>
@@ -99,7 +99,7 @@ export default function ProjectShowcase() {
                   `${projectDetails.location.coordinates[0]}, ${projectDetails.location.coordinates[1]}` : 
                   'N/A'}
               </span>
-            </div>
+            </div>  */}
           </div>
         </div>
       </div>
